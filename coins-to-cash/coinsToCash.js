@@ -26,6 +26,7 @@ const coinValues = {
 
 function newDollarCalc() {
   let sum = 0
+  // Use a for/in statement
   for (let coin in coinValues) {
     sum += coinValues[coin] * piggyBank[coin]
   }
